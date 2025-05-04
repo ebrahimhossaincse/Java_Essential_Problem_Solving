@@ -157,6 +157,11 @@ public class Calculator {
     }
 
     // Advanced mathematical operations
+
+    public static int square(int a){
+        return a*a;
+    }
+
     public static double power(double a, double b) {
         return Math.pow(a, b);
     }
